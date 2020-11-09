@@ -1,0 +1,110 @@
+
+* {
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing : border-box;
+        box-sizing : border-box;    
+    
+}
+
+
+body {
+    
+    
+    
+}
+
+.container{
+    
+    width: 1200px;
+    margin: auto;
+    
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: dimgray;
+    font-weight: bold;
+}
+
+
+.navbar {
+    
+    background-color: teal ;
+    font-size: 15px;
+    height: 0;
+    
+}
+.navbar .brand {
+    float: left;
+    width: 40%
+    
+}
+
+
+.navbar.links {
+    
+float: left;
+    width: 60%
+        
+}
+.navbar li {
+    
+    display: inline-block;
+    padding: 30px 60px;
+    border-bottom: 2px solid transparent;
+}
+navbar li a{
+    color: beige;
+    text-decoration: none;
+}
+.navbar li.active,
+.navbar li:hover {
+    
+    
+     border-bottom: 2px solid aqua ;
+    
+}
+.navbar li.active a,
+.navbar li a:hover {
+    color: aqua;
+     
+    
+}
+.header {
+    background: url(app.jpg);
+    height: 660px;
+    
+    
+} 
+.services {
+    height: 500px;
+    padding: 50px 20px;
+}
+.services h2 {
+    margin: 0 0 50px ;
+    font-weight: normal;
+}
+.services .item {
+    
+    float: left;
+    width: 33.333333%
+}
+
+
+.clearfix{
+    
+    clear: both 
+}
+.special-heading {
+    position: relative 
+}
+.special-heading :after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 40px;
+    width: 40px;
+    border-bottom: 2px solid #333;
+}
+
